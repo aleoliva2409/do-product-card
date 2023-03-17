@@ -8,7 +8,7 @@
     "src"
   ],
   "repository": {
-    "url": "https://github.com/aleoliva2409/do-product-card",
+    "url": "https://github.com/aleoliva2409/do-product-card-mine",
     "type": "git"
   },
   "engines": {
@@ -38,16 +38,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "do-product-card",
+  "name": "do-product-card-mine",
   "author": "Alejandro Oliva",
-  "module": "dist/do-product-card.esm.js",
+  "module": "dist/do-product-card-mine.esm.js",
   "size-limit": [
     {
-      "path": "dist/do-product-card.cjs.production.min.js",
+      "path": "dist/do-product-card-mine.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/do-product-card.esm.js",
+      "path": "dist/do-product-card-mine.esm.js",
       "limit": "10 KB"
     }
   ],
