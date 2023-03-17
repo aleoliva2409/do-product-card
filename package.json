@@ -38,7 +38,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "do-product-cart",
+  "name": "do-product-card",
   "author": "Alejandro Oliva",
   "module": "dist/do-product-cart.esm.js",
   "size-limit": [
