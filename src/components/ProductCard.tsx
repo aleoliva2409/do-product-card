@@ -29,13 +29,18 @@ const ProductCard = ({
   value,
   initialValues,
 }: Props) => {
-  const { counter, increaseBy, maxQuantity, reset, isMaxQuantityReached } =
-    useProduct({
-      onChange,
-      product,
-      value,
-      initialValues,
-    });
+  const {
+    counter,
+    increaseBy,
+    maxQuantity,
+    reset,
+    isMaxQuantityReached,
+  } = useProduct({
+    onChange,
+    product,
+    value,
+    initialValues,
+  });
 
   return (
     <ProductContext.Provider
